@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <header>
+        <h1><strong>Mad Lib by Michael</strong></h1>
+    </header>
+    <main>
+        
+        <form id="madlibs-form" name="madlibs-form" onsubmit="submitMadLibs(event)">
+            <section id="madlibs-inputs">
+                <div id="container" style="float: left;">
+                    <img src="img/Making-Small-Talk.jpg" width="400px" heigt="400px" style="float: left;">
+                    </div>  
+                <div class="input-group">
+                    <label for="pronoun">Enter a pronoun: </label>
+                    <input type="text" id="pronoun" name="pronoun"><br>
+                </div>
+                    
+                <div class="input-group">  
+                    
+                    <label for="place">Enter a place: </label>
+                    <input type="text" id="place" name="place"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="adjective">Enter an adjective: </label>
+                    <input type="text" id="adjective" name="adjective"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="sport">Enter a sport: </label>
+                    <input type="text" id="sport" name="sport"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="pet">Enter a pet: </label>
+                    <input type="text" id="pet" name="pet"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="pet1">Enter the same pet: </label>
+                    <input type="text" id="pet1" name="pet1"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="schoolSubject">Enter a school subject: </label>
+                    <input type="text" id="schoolSubject" name="schoolSubject"><br>
+                </div>
+                    
+                <div class="input-group">    
+                    <label for="antique">Enter an antique (plural): </label>
+                    <input type="text" id="antique" name="antique"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="verb">Enter a verb: </label>
+                    <input type="text" id="verb" name="verb"><br>
+                </div>
+                    
+                <div class="input-group">
+                    <label for="pluralNoun">Enter a plural noun: </label>
+                    <input type="text" id="pluralNoun" name="pluralNoun"><br>
+                </div>
+            </section>
+            <section id="madlibs-submit">
+                <button type="submit">Show Mad Lib</button>
+
+            </section>
+
+
+        </form>
+
+        <section id="completed-story" class="hide">
+    </main>
+	    <script src="js/javaS.js"></script>
+        </section>
+    </body>
+</html>
