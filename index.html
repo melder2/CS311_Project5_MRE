@@ -13,11 +13,13 @@
     </header>
     <main>
         
+    <div id="border">
+        <div id="container">
+            <img src="img/Making-Small-Talk.jpg" width="300px" heigt="300px">
+            </div> 
         <form id="madlibs-form" name="madlibs-form" onsubmit="submitMadLibs(event)">
             <section id="madlibs-inputs">
-                <div id="container" style="float: left;">
-                    <img src="img/Making-Small-Talk.jpg" width="400px" heigt="400px" style="float: left;">
-                    </div>  
+                
                 <div class="input-group">
                     <label for="pronoun">Enter a pronoun: </label>
                     <input type="text" id="pronoun" name="pronoun"><br>
@@ -70,7 +72,7 @@
                 </div>
             </section>
             <section id="madlibs-submit">
-                <button type="submit">Show Mad Lib</button>
+                <button type="submit" style="width: 150px;">Show Mad Lib</button>
 
             </section>
 
@@ -82,4 +84,5 @@
 	    <script src="js/javaS.js"></script>
         </section>
     </body>
+    </div>
 </html>

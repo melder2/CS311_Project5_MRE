@@ -9,7 +9,7 @@ const submitMadLibs = (event) => {
     const userSubmission = Object.fromEntries(form);
 
     const story = `<h2>Your completed mad lib: </h2>
-    <p>Where can you meet a nice, normal <strong><u>${userSubmission.pronoun}</u></strong> to date? Sure, there are traditional avenues like the workplace or (the) <strong><u>${userSubmission.place}</u></strong>, but here are some other creative, <strong><u>${userSubmission.adjective}</u></strong> ways: <br>
+    <p>Where can you meet a nice, normal <strong><u>${userSubmission.pronoun}</u></strong> to date? Sure, there are traditional<br> avenues like the workplace or (the) <strong><u>${userSubmission.place}</u></strong>, but here are some other creative, <strong><u>${userSubmission.adjective}</u></strong> ways: <br>
     Show off your athletic skills by joining a/an <strong><u>${userSubmission.sport}</u></strong> team at a rec center.<br>
     Walk your favorite four-legged <strong><u>${userSubmission.pet}</u></strong> at the local <strong><u>${userSubmission.pet1}</u></strong> park.<br> 
     Attend a/an <strong><u>${userSubmission.schoolSubject}</u></strong> class at a community college.<br>
